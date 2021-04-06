@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="daf08e51-6831-42e6-bd70-47fd100b3eb1" name="Default Changelist" comment="dirichlet commit 3-15-2021">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <list id="8e1442aa-83f1-43fb-aff0-99f1c2df20dd" name="2021 commit" comment="" />
+    <list id="e81c4cb4-7ec9-4c23-92e8-37f6d1cf49e1" name="dirichlet commit" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b39cd1c1-314f-4cb7-9aa8-e85595efedc1" />
+  </component>
+  <component name="JupyterTrust" id="483cc8b6-036c-4398-8538-5ccc84d58d72">
+    <option name="files">
+      <option value="MNIST/VAE/Clustering-after-VAE/simple-GMM-after-VAE.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-SGD-alpha-mu.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-SGD-alpha.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-SGD-with-pi-full-cov.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-SGD-with-pi.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-SGD.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-adiabatic.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-during-VAE-noprior-xie-inturn.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-during-VAE-noprior-xie.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-during-VAE-noprior.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-GMM-pretraining.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-conv_vae.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-factorvae.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-infovae.ipynb" />
+      <option value="MNIST/VAE/clustering-during-VAE/diag-q-exponential.ipynb" />
+    </option>
+  </component>
+  <component name="ProjectId" id="1i5ekqEzbg8lkH5hstC2bQjMd69" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/simple-clustering/dirichlet-process" />
+      <recent name="$PROJECT_DIR$/MNIST/VAE/clustering-during-VAE" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="auto_encoder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="auto_encoder" type="PythonConfigurationType" factoryName="Python">
+      <module name="auto_encoder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daf08e51-6831-42e6-bd70-47fd100b3eb1" name="Default Changelist" comment="" />
+      <changelist id="e81c4cb4-7ec9-4c23-92e8-37f6d1cf49e1" name="dirichlet commit" comment="" />
+      <changelist id="8e1442aa-83f1-43fb-aff0-99f1c2df20dd" name="2021 commit" comment="" />
+      <created>1557061745795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557061745795</updated>
+      <workItem from="1557061746889" duration="17497000" />
+      <workItem from="1563094685193" duration="427000" />
+      <workItem from="1563096000286" duration="36501000" />
+      <workItem from="1581515518463" duration="21171000" />
+      <workItem from="1582127379427" duration="113000" />
+      <workItem from="1582127578971" duration="3324000" />
+      <workItem from="1582130931753" duration="9625000" />
+      <workItem from="1583595090321" duration="5125000" />
+      <workItem from="1583662104324" duration="57388000" />
+      <workItem from="1595589450043" duration="6665000" />
+      <workItem from="1595599071330" duration="12000" />
+      <workItem from="1595599118644" duration="10000" />
+      <workItem from="1595599206429" duration="48475000" />
+      <workItem from="1599327890085" duration="11166000" />
+      <workItem from="1599925803375" duration="361000" />
+      <workItem from="1599926180954" duration="128000" />
+      <workItem from="1599926325121" duration="7416000" />
+      <workItem from="1599996356021" duration="39295000" />
+      <workItem from="1600334583492" duration="10303000" />
+      <workItem from="1600355698994" duration="26426000" />
+      <workItem from="1600951668804" duration="14485000" />
+      <workItem from="1601202035725" duration="8866000" />
+      <workItem from="1601212454408" duration="3316000" />
+      <workItem from="1601219820146" duration="32237000" />
+      <workItem from="1601466879605" duration="11353000" />
+      <workItem from="1601727442413" duration="41676000" />
+      <workItem from="1602233734748" duration="21654000" />
+      <workItem from="1602267535043" duration="2517000" />
+      <workItem from="1602270071131" duration="2481000" />
+      <workItem from="1602323871340" duration="8725000" />
+      <workItem from="1602334950926" duration="41429000" />
+      <workItem from="1603096494343" duration="18530000" />
+      <workItem from="1603125030401" duration="3181000" />
+      <workItem from="1603129426558" duration="21237000" />
+      <workItem from="1603376735835" duration="8994000" />
+      <workItem from="1603449491667" duration="8096000" />
+      <workItem from="1603462157537" duration="169000" />
+      <workItem from="1603462339012" duration="1284000" />
+      <workItem from="1603463634704" duration="89000" />
+      <workItem from="1603463734401" duration="95000" />
+      <workItem from="1603463839927" duration="6651000" />
+      <workItem from="1603472123296" duration="4338000" />
+      <workItem from="1603477030038" duration="15250000" />
+      <workItem from="1603718241891" duration="13012000" />
+      <workItem from="1604135021606" duration="5000" />
+      <workItem from="1604138364298" duration="13355000" />
+      <workItem from="1604163528052" duration="138000" />
+      <workItem from="1604163680890" duration="5437000" />
+      <workItem from="1604322110406" duration="178000" />
+      <workItem from="1604322299909" duration="340000" />
+      <workItem from="1604322726993" duration="11970000" />
+      <workItem from="1604341619082" duration="557000" />
+      <workItem from="1604342187851" duration="1799000" />
+      <workItem from="1604416402006" duration="466000" />
+      <workItem from="1604416980496" duration="24102000" />
+      <workItem from="1604504952953" duration="30484000" />
+      <workItem from="1604592230988" duration="4106000" />
+      <workItem from="1604597654146" duration="330000" />
+      <workItem from="1604597995070" duration="647000" />
+      <workItem from="1605630609511" duration="8937000" />
+      <workItem from="1605690993645" duration="11012000" />
+      <workItem from="1605702164727" duration="14426000" />
+      <workItem from="1605769117652" duration="101000" />
+      <workItem from="1605769229066" duration="94000" />
+      <workItem from="1605769333955" duration="144000" />
+      <workItem from="1605769487988" duration="3846000" />
+      <workItem from="1605773471365" duration="1801000" />
+      <workItem from="1605775283658" duration="3526000" />
+      <workItem from="1605779081629" duration="6094000" />
+      <workItem from="1605791987883" duration="1961000" />
+      <workItem from="1605794559531" duration="23825000" />
+      <workItem from="1605885532613" duration="68000" />
+      <workItem from="1605885625107" duration="15084000" />
+      <workItem from="1605960742840" duration="3895000" />
+      <workItem from="1605964974501" duration="16131000" />
+      <workItem from="1606054678654" duration="3205000" />
+      <workItem from="1606058392564" duration="3380000" />
+      <workItem from="1606063702155" duration="787000" />
+      <workItem from="1606065048334" duration="5601000" />
+      <workItem from="1606071318476" duration="13388000" />
+      <workItem from="1606152865593" duration="701000" />
+      <workItem from="1606330446561" duration="73000" />
+      <workItem from="1606330530941" duration="4321000" />
+      <workItem from="1606334861645" duration="4499000" />
+      <workItem from="1606339372994" duration="28000" />
+      <workItem from="1606339410913" duration="35000" />
+      <workItem from="1606339456322" duration="854000" />
+      <workItem from="1606340321482" duration="59000" />
+      <workItem from="1606340392144" duration="12985000" />
+      <workItem from="1606397500889" duration="14416000" />
+      <workItem from="1606726969972" duration="58000" />
+      <workItem from="1606727038203" duration="2572000" />
+      <workItem from="1606826498475" duration="60000" />
+      <workItem from="1606826590486" duration="54000" />
+      <workItem from="1606826655797" duration="65000" />
+      <workItem from="1606826734394" duration="115000" />
+      <workItem from="1606826859451" duration="5691000" />
+      <workItem from="1606833632105" duration="87000" />
+      <workItem from="1606833731779" duration="1251000" />
+      <workItem from="1606834994673" duration="4061000" />
+      <workItem from="1606839080558" duration="7022000" />
+      <workItem from="1606846119987" duration="26893000" />
+      <workItem from="1607022574573" duration="1522000" />
+      <workItem from="1607024110909" duration="1011000" />
+      <workItem from="1607025226003" duration="444000" />
+      <workItem from="1607025681591" duration="173000" />
+      <workItem from="1607025866307" duration="918000" />
+      <workItem from="1607026919490" duration="347000" />
+      <workItem from="1607027278189" duration="397000" />
+      <workItem from="1607027686371" duration="1245000" />
+      <workItem from="1607168232273" duration="324000" />
+      <workItem from="1607168568608" duration="1224000" />
+      <workItem from="1607176032739" duration="1771000" />
+      <workItem from="1607178317544" duration="735000" />
+      <workItem from="1607179064332" duration="66000" />
+      <workItem from="1607179141911" duration="209000" />
+      <workItem from="1607179362095" duration="326000" />
+      <workItem from="1607179707693" duration="402000" />
+      <workItem from="1607180122921" duration="645000" />
+      <workItem from="1607182918479" duration="4190000" />
+      <workItem from="1607189089626" duration="782000" />
+      <workItem from="1607417102489" duration="8604000" />
+      <workItem from="1607426347485" duration="1898000" />
+      <workItem from="1607431949075" duration="4437000" />
+      <workItem from="1607510118497" duration="122000" />
+      <workItem from="1607510250824" duration="709000" />
+      <workItem from="1607510972556" duration="294000" />
+      <workItem from="1607511278497" duration="108000" />
+      <workItem from="1607511398316" duration="192000" />
+      <workItem from="1607511603408" duration="5234000" />
+      <workItem from="1607517708987" duration="8382000" />
+      <workItem from="1607591527289" duration="49000" />
+      <workItem from="1607591586340" duration="56000" />
+      <workItem from="1607591653298" duration="122000" />
+      <workItem from="1607591787061" duration="144000" />
+      <workItem from="1607591942331" duration="4875000" />
+      <workItem from="1607596836094" duration="526000" />
+      <workItem from="1607597374747" duration="1292000" />
+      <workItem from="1607603684047" duration="2077000" />
+      <workItem from="1607606072730" duration="1040000" />
+      <workItem from="1607607383103" duration="1428000" />
+      <workItem from="1607608827047" duration="575000" />
+      <workItem from="1607609417028" duration="2813000" />
+      <workItem from="1607612705237" duration="284000" />
+      <workItem from="1607612999965" duration="1859000" />
+      <workItem from="1607614870728" duration="532000" />
+      <workItem from="1607615421469" duration="601000" />
+      <workItem from="1607616034635" duration="45000" />
+      <workItem from="1607616089756" duration="44000" />
+      <workItem from="1607616147236" duration="9463000" />
+      <workItem from="1607775931835" duration="4150000" />
+      <workItem from="1607781405461" duration="44000" />
+      <workItem from="1607781460134" duration="53000" />
+      <workItem from="1607781523704" duration="28303000" />
+      <workItem from="1608044449178" duration="8941000" />
+      <workItem from="1608053433033" duration="207000" />
+      <workItem from="1608053650897" duration="21367000" />
+      <workItem from="1608226677439" duration="619000" />
+      <workItem from="1608227306450" duration="709000" />
+      <workItem from="1608228028604" duration="563000" />
+      <workItem from="1608228610572" duration="37000" />
+      <workItem from="1608228658023" duration="93000" />
+      <workItem from="1608228766049" duration="2713000" />
+      <workItem from="1608231883995" duration="94000" />
+      <workItem from="1608231989916" duration="4684000" />
+      <workItem from="1608557421738" duration="10621000" />
+      <workItem from="1608626866445" duration="10626000" />
+      <workItem from="1608653569977" duration="39000" />
+      <workItem from="1608653619294" duration="36000" />
+      <workItem from="1608653665759" duration="46000" />
+      <workItem from="1608653722109" duration="3539000" />
+      <workItem from="1608695064891" duration="32000" />
+      <workItem from="1608695106433" duration="29000" />
+      <workItem from="1608695146933" duration="35000" />
+      <workItem from="1608695192161" duration="43000" />
+      <workItem from="1608695245217" duration="865000" />
+      <workItem from="1608696121801" duration="232000" />
+      <workItem from="1608696365314" duration="94000" />
+      <workItem from="1608696469006" duration="44000" />
+      <workItem from="1608696523442" duration="148000" />
+      <workItem from="1608696681440" duration="79000" />
+      <workItem from="1608696771309" duration="49000" />
+      <workItem from="1608696830933" duration="413000" />
+      <workItem from="1608697254436" duration="5609000" />
+      <workItem from="1608981808104" duration="12950000" />
+      <workItem from="1609000508252" duration="5082000" />
+      <workItem from="1609005603100" duration="13396000" />
+      <workItem from="1609095985009" duration="58000" />
+      <workItem from="1609096053754" duration="281000" />
+      <workItem from="1609096345960" duration="14359000" />
+      <workItem from="1609178122736" duration="196000" />
+      <workItem from="1609178330713" duration="2900000" />
+      <workItem from="1609181242886" duration="51000" />
+      <workItem from="1609181304630" duration="36000" />
+      <workItem from="1609181350563" duration="29000" />
+      <workItem from="1609181390762" duration="79000" />
+      <workItem from="1609181480758" duration="184000" />
+      <workItem from="1609394705055" duration="7851000" />
+      <workItem from="1609678034399" duration="44000" />
+      <workItem from="1609678092331" duration="42507000" />
+      <workItem from="1609867044040" duration="469000" />
+      <workItem from="1609867524523" duration="22386000" />
+      <workItem from="1610022417884" duration="5467000" />
+      <workItem from="1610028240072" duration="615000" />
+      <workItem from="1610028868612" duration="192000" />
+      <workItem from="1610029071097" duration="1006000" />
+      <workItem from="1610032424021" duration="798000" />
+      <workItem from="1610033233584" duration="44000" />
+      <workItem from="1610033294834" duration="8114000" />
+      <workItem from="1610041421607" duration="15638000" />
+      <workItem from="1610120644421" duration="3533000" />
+      <workItem from="1610124189488" duration="28931000" />
+      <workItem from="1610386939288" duration="3146000" />
+      <workItem from="1610393196663" duration="1360000" />
+      <workItem from="1610394847292" duration="362000" />
+      <workItem from="1610395302025" duration="588000" />
+      <workItem from="1610395953834" duration="429000" />
+      <workItem from="1610396423469" duration="6452000" />
+      <workItem from="1610470765143" duration="50835000" />
+      <workItem from="1610991837763" duration="1098000" />
+      <workItem from="1611067672980" duration="233000" />
+      <workItem from="1611067918547" duration="10974000" />
+      <workItem from="1611120485019" duration="93575000" />
+      <workItem from="1611559755757" duration="7538000" />
+      <workItem from="1611573184894" duration="11805000" />
+      <workItem from="1611590479709" duration="44000000" />
+      <workItem from="1612093077530" duration="47000" />
+      <workItem from="1612093203017" duration="728000" />
+      <workItem from="1612093941718" duration="722000" />
+      <workItem from="1612094759615" duration="52847000" />
+      <workItem from="1614256206946" duration="5483000" />
+      <workItem from="1614777421685" duration="9507000" />
+      <workItem from="1615989824988" duration="6392000" />
+      <workItem from="1617705396958" duration="341000" />
+      <workItem from="1617705749779" duration="1238000" />
+      <workItem from="1617707019652" duration="1323000" />
+      <workItem from="1617708469535" duration="536000" />
+      <workItem from="1617709018741" duration="2805000" />
+    </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1557073005771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557073005771</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test commit">
+      <created>1557073107906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557073107906</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test commit">
+      <created>1608044108929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608044108929</updated>
+    </task>
+    <task id="LOCAL-00004" summary="q-exponential commit">
+      <created>1608118017617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608118017617</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test commit">
+      <created>1608557367426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608557367426</updated>
+    </task>
+    <task id="LOCAL-00006" summary="factorvae commit">
+      <created>1608723693114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608723693114</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2021 commit">
+      <created>1609678372541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609678372541</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2021 commit">
+      <created>1610995547522</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610995547522</updated>
+    </task>
+    <task id="LOCAL-00009" summary="dirichlet commit">
+      <created>1611072198516</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611072198516</updated>
+    </task>
+    <task id="LOCAL-00010" summary="dirichlet commit 3-11-2021">
+      <created>1615467891231</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615467891231</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dirichlet commit 3-15-2021">
+      <created>1615817498394</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615817498394</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="q-exponential commit" />
+    <MESSAGE value="test commit" />
+    <MESSAGE value="factorvae commit" />
+    <MESSAGE value="2021 commit" />
+    <MESSAGE value="dirichlet commit" />
+    <MESSAGE value="dirichlet commit 3-11-2021" />
+    <MESSAGE value="dirichlet commit 3-15-2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="dirichlet commit 3-15-2021" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/scikit-clustering/gmm/recipe80/main.ipynb</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/scikit-clustering/k-means/handbook.ipynb</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/MNIST/VAE-sambaiz.net/main.ipynb</url>
+          <line>127</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/scikit-clustering/gmm/handbook/main.ipynb</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/simple-clustering/one-dim/my-clustering.ipynb</url>
+          <line>145</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///home/user/PycharmProjects/auto_encoder/simple-clustering/n-dim/pytorch-clustering.ipynb</url>
+          <line>456</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///home/user/PycharmProjects/auto_encoder/MNIST/VAE/clustering-during-VAE/diag-alpha-resnet.ipynb</url>
+          <line>4</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///home/user/PycharmProjects/auto_encoder/simple-clustering/dirichlet-process/dirichlet-clustering-n-dim.ipynb</url>
+          <line>234</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
